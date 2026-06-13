@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+      <div class="logo">
+            <img src="logo.jpg" alt="Logo">
+             </div>
+            <h2>MyShop</h2>
+       <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+            <a href="#">Cart (<span id="cart-count">0</span>)</a>
+            <div class="searchbar">
+            <input type="text" placeholder="Search products...">
+            <button>Search</button>
+            </div>
+
+            
+
+    </nav>
+</header>
+
+<section class="products">
+<div class="container">
+  <div class="card">
+    <h3>Mobile Phone</h3>
+    <img src="phone.jpg" alt="mobile img">
+    <p>Price: $200</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <h3>Laptop</h3>
+      <img src="laptop.jpg" alt="laptop img">
+    <p>Price: $800</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <h3>Headphones</h3>
+      <img src="headphone.jpg" alt="Headphones">
+    <p>Price: $50</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
